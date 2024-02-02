@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Order system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <aside class="sidebar">
+        <h3>Category</h3>
+        <nav class="menu-categories">
+            <a href="#" class="category" onclick="filterProducts('beer')">Beer</a>
+            <a href="#" class="category" onclick="filterProducts('wine')">Wine</a>
+            <a href="#" class="category" onclick="filterProducts('vodka')">Vodka</a>
+            <a href="#" class="category" onclick="filterProducts('whiskey')">Whiskey</a>
+            <a href="#" class="category" onclick="filterProducts('cocktail')">Cocktail</a>
+            <a href="#" class="category" onclick="filterProducts('soft_drink')">Soft Drink</a>
+        </nav>
+    </aside>
+    <main id="product-container">
+
+    </main>
+    <aside class="cart">
+        <h3>Cart</h3>
+        <div id="cart-items">
+        </div>
+        <div class="total">Total: <span id="total-price">0</span> SEK</div>
+    </aside>
+    <script src="script.js"></script>
+</body>
+
+</html>
