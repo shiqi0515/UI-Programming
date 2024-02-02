@@ -59,11 +59,9 @@ body {
 
 .sidebar {
     width: 200px;
-    /* 或者你想要的宽度 */
     background-color: #f0f0f0;
     padding: 10px;
     height: 100vh;
-    /* 让侧边栏高度撑满视口高度 */
 }
 
 .menu-categories {
