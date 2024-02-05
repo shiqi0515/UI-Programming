@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="sidebar">
+        <h2>Category</h2>
+        <ul>
+            <li onclick="filterCategory('Beer')">Beer</li>
+            <li onclick="filterCategory('Red Wine')">Red Wine</li>
+            <li onclick="filterCategory('White Wine')">White Wine</li>
+            <li onclick="filterCategory('Gin')">Gin</li>
+            <li onclick="filterCategory('Whiskey')">Whiskey</li>
+            <li onclick="filterCategory('Vodka')">Vodka</li>
+            <li onclick="filterCategory('Cider')">Cider</li>
+            <li onclick="filterCategory('Alcoholfree')">Alcoholfree</li>
+            <li onclick="filterCategory('Soft Drink')">Soft Drink</li>
+        </ul>
+        <button onclick="displayAllProducts()">Home</button> <!-- Home button -->
+    </div>
+
+    <div id="main">
+        <h2>Products</h2>
+        <div id="products"></div>
+    </div>
+
+    <div id="cart">
+        <h2>Cart</h2>
+        <ul id="cartItems"></ul>
+        <p>Total: <span id="totalPrice">0</span> kr</p>
+        <button onclick="clearCart()">Empty</button>
+        <button onclick="placeOrder()">Order</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
