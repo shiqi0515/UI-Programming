@@ -3,7 +3,32 @@ let cart = [];
 
 // Define an array of products with their categories, names, and prices
 const products = [
-    // ... (list of products)
+        { category: 'Beer', name: 'Remmarlöv', price: 35 },
+    { category: 'Beer', name: 'Carlsberg Hof', price: 39 },
+    { category: 'Beer', name: 'Mariestads Export', price: 45 },
+    { category: 'Red Wine', name: 'Bella de Día', price: 69 },
+    { category: 'Red Wine', name: 'Marrenon', price: 85 },
+    { category: 'Red Wine', name: 'Dandelion Vineyards', price: 95 },
+    { category: 'White Wine', name: 'Lubanzi', price: 69 },
+    { category: 'White Wine', name: 'Semente Avesso', price: 79 },
+    { category: 'White Wine', name: 'Dark Horse', price: 79 },
+    { category: 'Gin', name: 'Biostilla', price: 50 },
+    { category: 'Gin', name: 'Tanqueray', price: 55 },
+    { category: 'Gin', name: 'Beefeater', price: 55 },
+    { category: 'Whiskey', name: 'Speyburn', price: 80 },
+    { category: 'Whiskey', name: 'Tamnavulin', price: 80 },
+    { category: 'Whiskey', name: 'Grant`s', price: 120 },
+    { category: 'Vodka', name: 'Dworek Vodka', price: 50 },
+    { category: 'Vodka', name: 'Koskenkorva Vodka', price: 50 },
+    { category: 'Vodka', name: 'Absolut Vodka', price: 55 },
+    { category: 'Cider', name: 'Briska', price: 45 },
+    { category: 'Cider', name: 'Somersby', price: 45 },
+    { category: 'Cider', name: 'Kopparberg Cider', price: 55 },
+    { category: 'Alcoholfree', name: 'Skåne', price: 30 },
+    { category: 'Alcoholfree', name: 'Roslags Äppelglögg', price: 40 },
+    { category: 'Alcoholfree', name: 'Lyre`s American Malt', price: 50 },
+    { category: 'Soft Drink', name: 'Cola', price: 30 },
+    { category: 'Soft Drink', name: 'Spirit', price: 30 }
 ];
 
 // Function to filter and display products by category
