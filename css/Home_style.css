@@ -1,42 +1,29 @@
 body {
     background-color: #2D3250;
-    /* 深蓝色背景 */
     color: #F6B17A;
-    /* 柔和的橙色文字 */
     font-family: Arial, sans-serif;
-    /* 字体样式 */
     margin: 0;
     padding: 20px;
-    /* 页面内边距 */
     display: flex;
     flex-direction: column;
-    /* 垂直布局 */
     align-items: center;
-    /* 水平居中对齐子元素 */
     height: 100vh;
 }
 
-/* 标题样式 */
 h1,
 h2 {
     color: #F6B17A;
 }
 
-/* 登录表单样式 */
 #loginForm {
     background-color: #7077A1;
-    /* 浅蓝色背景 */
     border: 2px solid #F6B17A;
-    /* 柔和的橙色边框 */
     padding: 20px;
     border-radius: 10px;
-    /* 边框圆角 */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    /* 阴影效果 */
     width: 300px;
     display: flex;
     flex-direction: column;
-    /* 表单垂直布局 */
 }
 
 input[type="text"],
@@ -44,30 +31,22 @@ input[type="password"] {
     margin-bottom: 20px;
     padding: 10px;
     border-radius: 5px;
-    /* 输入框圆角 */
     border: 1px solid #F6B17A;
-    /* 输入框边框 */
     background-color: #424769;
-    /* 输入框背景色 */
     color: #F6B17A;
-    /* 输入文字颜色 */
 }
 
 input[type="submit"] {
     background-color: #F6B17A;
-    /* 按钮背景色 */
     color: #FFFFFF;
-    /* 按钮文字颜色 */
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    /* 背景色过渡动画 */
 }
 
 input[type="submit"]:hover {
     background-color: #F5E8C7;
-    /* 鼠标悬停时按钮背景色 */
 }
 
 button {

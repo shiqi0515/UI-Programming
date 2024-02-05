@@ -673,17 +673,20 @@ var users = [
 
 
 function checkLogin() {
+    // Get the values entered in the username and password fields
     var username = document.getElementById('username').value;
     var password = document.getElementById('password').value;
 
+    // Check if there is any user in the 'users' array whose username and password match the input values
     var isAuthenticated = users.some(function (user) {
         return user.username === username && user.password === password;
     });
 
+    // If the authentication is successful, redirect to the 'Menu.html' page
     if (isAuthenticated) {
-        alert('Login successful');
-        window.location.href = 'Menu.html';
+        alert('Login successful'); // Display a success message
+        window.location.href = 'Menu.html'; // Redirect to 'Menu.html'
     } else {
-        alert('Login failed');
+        alert('Login failed'); // Display an error message if authentication fails
     }
 }
