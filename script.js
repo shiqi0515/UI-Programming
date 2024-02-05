@@ -48,14 +48,12 @@ function displayAllProducts() {
         const div = document.createElement('div');
         div.textContent = `${product.name} - ${product.price}kr`;
         div.onclick = function () { addToCart(product.name, product.price); };
-        div.className = 'product-item'; // Implement CSS class
         productsDiv.appendChild(div);
     });
 }
 
 // Show all products when page is loaded
 document.addEventListener('DOMContentLoaded', displayAllProducts);
-
 
 function addToCart(name, price) {
     const itemIndex = cart.findIndex(item => item.name === name);
@@ -107,7 +105,7 @@ function placeOrder() {
         clearCart();
         setTimeout(() => {
             window.location.reload();
-        }, 5000); // Auto refresh after 5 seconds
+        }, 3000); // Auto refresh after 3 seconds
     } else {
         alert('Cart is empty！');
     }

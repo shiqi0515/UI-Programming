@@ -1,3 +1,4 @@
+html,
 body {
     background-color: #2D3250;
     color: #F6B17A;
@@ -37,6 +38,7 @@ body {
 
 #main {
     width: 70%;
+    min-height: 50vh;
     padding: 10px;
 }
 
@@ -44,8 +46,9 @@ body {
     background-color: #2D3250;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
 }
 
 #products div {
@@ -54,25 +57,13 @@ body {
     border: 1px solid #F6B17A;
     margin: 10px;
     padding: 20px;
-    flex-basis: calc(33.333% - 20px);
-    min-height: 60px;
-    box-sizing: border-box;
-    text-align: center;
-}
-
-.product-item {
-    background-color: #424769;
-    border: 1px solid #F6B17A;
-    cursor: pointer;
-    margin: 10px;
-    padding: 20px;
     flex: 0 0 calc(33.333% - 20px);
     min-height: 60px;
     box-sizing: border-box;
     text-align: center;
 }
 
-.product-item:hover {
+#products div:hover {
     background-color: #F6B17A;
     color: white;
 }
