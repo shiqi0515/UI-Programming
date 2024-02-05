@@ -25,14 +25,14 @@ body {
 #sidebar ul {
     list-style: none;
     text-align: center;
-    padding: 0;
+    padding: 10px;
 }
 
 #sidebar ul li {
     border-bottom: 1px solid #424769;
     cursor: pointer;
     margin: 10px 0;
-    padding: 5px 0;
+    padding: 8px 0;
 }
 
 #main {
@@ -86,9 +86,8 @@ body {
 }
 
 #cart ul {
-    border-top: 1px solid #424769;
     list-style: none;
-    padding: 0;
+    padding: 10px;
 }
 
 #cart ul li {
