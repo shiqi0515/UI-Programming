@@ -25,8 +25,7 @@ const products = [
     { category: 'Alcoholfree', name: 'Roslags Äppelglögg', price: 40 },
     { category: 'Alcoholfree', name: 'Lyre`s American Malt', price: 50 },
     { category: 'Soft Drink', name: 'Cola', price: 30 },
-    { category: 'Soft Drink', name: 'Spirit', price: 30 },
-    { category: 'Soft Drink', name: 'Milk', price: 30 }
+    { category: 'Soft Drink', name: 'Spirit', price: 30 }
 ];
 
 function filterCategory(category) {
