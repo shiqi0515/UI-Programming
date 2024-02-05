@@ -49,6 +49,7 @@ function displayAllProducts() {
         const div = document.createElement('div');
         div.textContent = `${product.name} - ${product.price}kr`;
         div.onclick = function () { addToCart(product.name, product.price); };
+        div.className = 'product-item'; // 应用一个CSS类来控制样式
         productsDiv.appendChild(div);
     });
 }
