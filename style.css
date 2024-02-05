@@ -8,7 +8,9 @@ body {
     margin: 0;
 }
 
-#sidebar, #main, #cart {
+#sidebar,
+#main,
+#cart {
     border: 2px solid #F6B17A;
     position: relative;
 }
