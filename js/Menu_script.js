@@ -3,7 +3,7 @@ let cart = [];
 
 // Define an array of products with their categories, names, and prices
 const products = [
-        { category: 'Beer', name: 'Remmarlöv', price: 35 },
+    { category: 'Beer', name: 'Remmarlöv', price: 35 },
     { category: 'Beer', name: 'Carlsberg Hof', price: 39 },
     { category: 'Beer', name: 'Mariestads Export', price: 45 },
     { category: 'Red Wine', name: 'Bella de Día', price: 69 },
