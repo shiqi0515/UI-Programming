@@ -103,7 +103,7 @@ function getOrderNumber() {
 function placeOrder() {
     if (cart.length > 0) {
         const orderNumber = getOrderNumber();
-        alert(`Sucess，your number is ${orderNumber}`);
+        alert(`Success，your number is ${orderNumber}`);
         clearCart();
         setTimeout(() => {
             window.location.reload();

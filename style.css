@@ -1,34 +1,23 @@
 body {
-    background-color: #EFECEC;
-    color: #0C2D57;
+    background-color: #2D3250;
+    color: #F6B17A;
     display: flex;
     font-family: Arial, sans-serif;
+    flex-direction: row;
+    height: 100%;
+    margin: 0;
 }
 
 #sidebar, #main, #cart {
-    border: 2px solid #0C2D57;
-    position: fixed;
-    top: 0;
+    border: 2px solid #F6B17A;
+    position: relative;
 }
 
 #sidebar {
-    background-color: #0C2D57;
-    color: #EFECEC;
+    background-color: #7077A1;
+    color: #F6B17A;
     width: 15%;
-    left: 0;
-    top: 0;
-    bottom: 0;
     padding: 10px;
-}
-
-#sidebar::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 2px; /* 分割线的宽度 */
-    background: #000; /* 分割线的颜色 */
 }
 
 #sidebar ul {
@@ -38,44 +27,43 @@ body {
 }
 
 #sidebar ul li {
-    border-bottom: 1px solid #FFB0B0;
+    border-bottom: 1px solid #424769;
     cursor: pointer;
     margin: 10px 0;
+    padding: 5px 0;
 }
 
 #main {
     width: 70%;
-    right: 14.5%;
     padding: 10px;
 }
 
 #products {
-    background-color: #FFFFFF;
+    background-color: #2D3250;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
-    height: 100%;
+    align-items: flex-start;
 }
 
 #products div {
     cursor: pointer;
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
-    padding: 10px;
+    background-color: #424769;
+    border: 1px solid #F6B17A;
+    margin: 10px;
+    padding: 20px;
     flex-basis: calc(33.333% - 20px);
-    max-width: 25%;
     min-height: 60px;
     box-sizing: border-box;
     text-align: center;
 }
 
 .product-item {
-    background-color: #FFB0B0;
-    border: 1px solid #0C2D57;
+    background-color: #424769;
+    border: 1px solid #F6B17A;
     cursor: pointer;
     margin: 10px;
-    padding: 10px;
+    padding: 20px;
     flex: 0 0 calc(33.333% - 20px);
     min-height: 60px;
     box-sizing: border-box;
@@ -83,37 +71,36 @@ body {
 }
 
 .product-item:hover {
-    background-color: #FC6736;
-    color: #FFFFFF;
+    background-color: #F6B17A;
+    color: white;
 }
 
 #cart {
-    background-color: #0C2D57;
-    color: #EFECEC;
-    top: 0;
-    right: 0;
-    bottom: 0;
+    background-color: #7077A1;
+    color: #F6B17A;
     width: 15%;
     padding: 10px;
     text-align: center;
 }
 
-#cart::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    width: 2px;
-    background: #000;
-}
-
 #cart ul {
-    border-top: 1px solid #FFB0B0;
+    border-top: 1px solid #424769;
     list-style: none;
     padding: 0;
 }
 
 #cart ul li {
     margin: 10px 0;
+}
+
+button {
+    background-color: #F6B17A;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F5E8C7;
 }
