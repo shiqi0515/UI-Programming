@@ -1,0 +1,97 @@
+body {
+    background-color: #2D3250;
+    color: #F6B17A;
+    display: flex;
+    font-family: Arial, sans-serif;
+    flex-direction: row;
+    height: 100vh;
+    margin: 0;
+}
+
+#sidebar,
+#main,
+#cart {
+    border: 2px solid #F6B17A;
+    position: relative;
+}
+
+#sidebar {
+    background-color: #7077A1;
+    color: #F6B17A;
+    width: 15%;
+    padding: 10px;
+}
+
+#sidebar ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+#sidebar ul li {
+    border-bottom: 1px solid #424769;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 8px 0;
+}
+
+#main {
+    width: 70%;
+    padding: 20px;
+}
+
+#products {
+    background-color: #2D3250;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: flex-start;
+    align-items: stretch;
+    width: 100%;
+}
+
+#products div {
+    cursor: pointer;
+    background-color: #424769;
+    border: 1px solid #F6B17A;
+    margin: 10px;
+    padding: 20px;
+    flex: 0 0 calc(33.333% - 20px);
+    min-height: 60px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#products div:hover {
+    background-color: #F6B17A;
+    color: white;
+}
+
+#cart {
+    background-color: #7077A1;
+    color: #F6B17A;
+    width: 15%;
+    padding: 10px;
+    text-align: center;
+}
+
+#cart ul {
+    list-style: none;
+    padding: 10px;
+}
+
+#cart ul li {
+    margin: 10px 0;
+}
+
+button {
+    background-color: #F6B17A;
+    color: #FFFFFF;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #F5E8C7;
+}
