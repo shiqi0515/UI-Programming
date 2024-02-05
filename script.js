@@ -49,7 +49,7 @@ function displayAllProducts() {
         const div = document.createElement('div');
         div.textContent = `${product.name} - ${product.price}kr`;
         div.onclick = function () { addToCart(product.name, product.price); };
-        div.className = 'product-item'; // 应用一个CSS类来控制样式
+        div.className = 'product-item'; // Implement CSS class
         productsDiv.appendChild(div);
     });
 }
@@ -104,7 +104,7 @@ function getOrderNumber() {
 function placeOrder() {
     if (cart.length > 0) {
         const orderNumber = getOrderNumber();
-        alert(`Sucess，your number is${orderNumber}`);
+        alert(`Sucess，your number is ${orderNumber}`);
         clearCart();
         setTimeout(() => {
             window.location.reload();
