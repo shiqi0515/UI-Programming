@@ -13,6 +13,14 @@ Problems:
 1. Didn't figure out how to use beers_bought, beers_sold and payments JSON files. Is it possible for use to just create some fake data just for testing?
 
 Personal contribution:
-Shiqi:
-1. Completed the design of CSS, HTML and JavaScript files for the Home page. Completed page jump, and successfully applied dutchman_table_users.json to JS to make success VIP login.
-2. Completed the design of CSS, HTML and JavaScript files for the Menu page. Completed classify goods according to different categories, automatically laid out the page according to the number of products, successfully applied dutchman_table_sbl_beer.json to show Name and price in page, completed add products to cart, empty cart and order function.
+Shiqi Shu:
+1. For Home page:
+    1.1 Completed the design of CSS, HTML and JavaScript files for the Menu page.
+    1.2 Successfully applied dutchman_table_users.json to JS to make success VIP login.
+    1.3 Implement page jump.
+2. For Menu page:
+    2.1 Completed the design of CSS, HTML and JavaScript files for the Menu page.
+    2.2 Completed classify goods according to different categories, automatically laid out the page according to the number of products.
+    2.3 Successfully applied dutchman_table_sbl_beer.json to show Name and price in page(Just pick around 150 items).
+    2.4 Completed categories and products are sorted by initials.
+    2.5 Completed add products to cart and empty cart.

@@ -86,6 +86,7 @@ body {
     min-height: 60px;
     box-sizing: border-box;
     text-align: center;
+    max-height: 50px;
 }
 
 #products div:hover {
