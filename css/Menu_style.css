@@ -127,3 +127,27 @@ button {
 button:hover {
     background-color: #F5E8C7;
 }
+
+select#deliveryOption {
+    background: #F6B17A url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'><path d='M7 10l5 5 5-5z' fill='%23ffffff'/></svg>") no-repeat right -0.6em center/30px 18px;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    margin: 15px;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+
+/* You might want to add a custom arrow indicator for the dropdown */
+select#deliveryOption::after {
+    content: '▼';
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
