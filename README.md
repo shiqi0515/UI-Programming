@@ -24,3 +24,5 @@ Shiqi Shu:
     2.3 Successfully applied dutchman_table_sbl_beer.json to show Name and price in page(Just pick around 150 items).
     2.4 Completed categories and products are sorted by initials.
     2.5 Completed add products to cart and empty cart.
+    2.6 Change button and functions for VIP customer to Pay.
+    2.7 Provice two methods for VIP to pay. If choose Self service then will generate Random four-digit password to open the fridge. If choose Table service then will required to input table number.

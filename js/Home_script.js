@@ -1,5 +1,9 @@
 var users = [
     {
+        "password": "123456",
+        "username": "shiqi",
+    },
+    {
         "user_id": "2",
         "credentials": "0",
         "password": "b690bc2447d40ea8a6f78345eb979a28",
@@ -685,6 +689,7 @@ function checkLogin() {
     // If the authentication is successful, redirect to the 'Menu.html' page
     if (isAuthenticated) {
         alert('Login successful'); // Display a success message
+        sessionStorage.setItem('isUserLoggedIn', '1');
         window.location.href = 'Menu.html'; // Redirect to 'Menu.html'
     } else {
         alert('Login failed'); // Display an error message if authentication fails
