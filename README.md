@@ -10,7 +10,12 @@ Extra rules:
 3. Regular customer can only pay at bar, and pick drinks by themselves.
 
 Problems:
-1. Didn't figure out how to use beers_bought, beers_sold and payments JSON files. Is it possible for use to just create some fake data just for testing?
+1. Didn't figure out how to use beers_bought, beers_sold and payments JSON files.
+
+What to do?
+1. Create Bartender page.
+2. Transfor order detailed data from Menu page to Bartender page.
+3. Create automatic order sequence.
 
 Personal contribution:
 Shiqi Shu:
