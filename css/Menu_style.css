@@ -1,3 +1,8 @@
+::-webkit-scrollbar {
+    display: none;
+    /* Hide scrollbar */
+}
+
 body {
     background-color: #2D3250;
     color: #F6B17A;
@@ -20,6 +25,24 @@ body {
     color: #F6B17A;
     width: 15%;
     padding: 10px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.category {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.category-item {
+    border-bottom: 1px solid #424769;
+    cursor: pointer;
+    margin: 10px 0;
+    padding: 8px 0;
 }
 
 #sidebar ul {
@@ -76,6 +99,11 @@ body {
     width: 15%;
     padding: 10px;
     text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    height: 100vh;
 }
 
 #cart ul {

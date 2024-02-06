@@ -15,4 +15,4 @@ Problems:
 Personal contribution:
 Shiqi:
 1. Completed the design of CSS, HTML and JavaScript files for the Home page. Completed page jump, and successfully applied dutchman_table_users.json to JS to make success VIP login.
-2. Completed the design of CSS, HTML and JavaScript files for the Menu page. Completed classify goods according to different categories, automatically laid out the page according to the number of products, 
+2. Completed the design of CSS, HTML and JavaScript files for the Menu page. Completed classify goods according to different categories, automatically laid out the page according to the number of products, successfully applied dutchman_table_sbl_beer.json to show Name and price in page, completed add products to cart, empty cart and order function.
