@@ -705,5 +705,6 @@ function checkLogin() {
         window.location.href = 'Menu.html'; // Redirect to 'Menu.html'
     } else {
         alert('Login failed'); // Display an error message if authentication fails
+        sessionStorage.setItem('isUserLoggedIn', '0');
     }
 }
