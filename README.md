@@ -22,7 +22,7 @@ Shiqi Shu:
 1. For Home page:
     1.1 Completed the design of CSS, HTML and JavaScript files for the Menu page.
     1.2 Successfully applied dutchman_table_users.json to JS to make success VIP login.
-    1.3 Implement page jump.
+    1.3 Implement page jump to Menu page.
 2. For Menu page:
     2.1 Completed the design of CSS, HTML and JavaScript files for the Menu page.
     2.2 Completed classify goods according to different categories, automatically laid out the page according to the number of products.
@@ -31,3 +31,6 @@ Shiqi Shu:
     2.5 Completed add products to cart and empty cart.
     2.6 Change button and functions for VIP customer to Pay.
     2.7 Provice two methods for VIP to pay. If choose Self service then will generate Random four-digit password to open the fridge. If choose Table service then will required to input table number.
+
+Tips:
+1. You can use your first name and default password '123456' to log in as a VIP customer.
