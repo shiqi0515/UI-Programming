@@ -3996,6 +3996,9 @@ function placeOrder() {
         alert(`Order placed successfully. Your order number is ${orderNumber}`);
         clearCart();
 
+        // Jump to Bartender page
+
+
         // Auto refresh the page after 3 seconds
         setTimeout(() => {
             window.location.reload();
