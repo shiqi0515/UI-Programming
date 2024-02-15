@@ -16,6 +16,8 @@ What to do?
 1. Create Bartender page.
 2. Transfor order detailed data from Menu page to Bartender page.
 3. Create automatic order sequence.
+4. Undo/Redo for adding items to cart
+5. Add sort/filter options
 
 Personal contribution:
 Shiqi Shu:
