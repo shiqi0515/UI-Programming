@@ -5,3 +5,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Here you might want to call a method from orderController to initialize the display
     orderController.displayOrders();
 });
+// test
