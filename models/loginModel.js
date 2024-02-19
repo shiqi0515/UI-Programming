@@ -687,7 +687,6 @@ var users = [
     }
 ]
 
-
 function checkLogin() {
     // Get the values entered in the username and password fields
     var username = document.getElementById('username').value;
