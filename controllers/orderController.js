@@ -23,3 +23,4 @@ export class OrderController {
         this.model.addOrder(order);
     };
 }
+
