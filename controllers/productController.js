@@ -1,7 +1,7 @@
 import { ProductModel } from '../models/productModel.js';
 import { ProductView } from '../views/productView.js';
 
-class productController {
+export class productController {
     constructor(model, view) {
         this.model = new ProductModel();
         this.view = new ProductView();

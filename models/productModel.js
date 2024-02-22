@@ -1,4 +1,4 @@
-class productModel {
+export class productModel {
     constructor(products) {
         this.products = products;
         this.cart = [];

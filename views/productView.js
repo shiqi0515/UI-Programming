@@ -1,4 +1,4 @@
-class productView {
+export class productView {
     constructor() {
         this.app = this.getElement('#root');
         this.productsDiv = document.getElementById('products');
