@@ -1,11 +1,10 @@
-class ProductController {
+import { ProductModel } from '../models/productModel.js';
+import { ProductView } from '../views/productView.js';
+
+class productController {
     constructor(model, view) {
-        this.model = model;
-        this.view = view;
-        this.productsDiv = document.getElementById('products');
-        this.sidebar = document.getElementById('sidebar');
-        this.cartItemsDiv = document.getElementById('cartItems');
-        this.totalPriceDiv = document.getElementById('totalPrice');
+        this.model = new ProductModel();
+        this.view = new ProductView();
         this.init();
     }
 

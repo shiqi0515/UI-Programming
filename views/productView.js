@@ -1,4 +1,13 @@
 class productView {
+    constructor() {
+        this.app = this.getElement('#root');
+        this.productsDiv = document.getElementById('products');
+        this.sidebar = document.getElementById('sidebar');
+        this.cartItemsDiv = document.getElementById('cartItems');
+        this.totalPriceDiv = document.getElementById('totalPrice');
+        
+        this.app.append(this.productsDiv, this.sidebar, this.cartItemsDiv, this.totalPriceDiv);
+    }
     displayProducts(productsDiv, products, clickAction) {
         productsDiv.innerHTML = '';
         products.forEach(product => {
